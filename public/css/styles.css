@@ -1,0 +1,78 @@
+button.submit {
+  float: right;
+}
+
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+
+.panel-heading button.delete,
+.panel-heading button.delete2,
+button.edit,button.edit2 {
+  float: right;
+  margin: 5px;
+}
+
+.author-container {
+  margin-top: 50px;
+}
+
+.author-list {
+  margin-top: 25px;
+}
+
+.blog-container,.blog-container2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.blog {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#author-name {
+  width: 100%;
+  /* height: 35px; */
+  margin-top: 5px;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
+.sign-in-row{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* SignIn Css */
+#signin-body, #userblog-body{
+  background-color: #0A1612;
+  color: #e3e3e3;
+  text-align: center;
+}
+.signin,.userblog {
+  color: #ffffff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  margin-bottom: 4%;
+  margin-right: 2%;
+}
+.signin:hover, .userblog:hover {
+  background-color: #95a5a6;
+  border-color: #95a5a6;
+}
+.input-group .form-control{
+  margin-bottom:4%;
+}
+.button-row{
+  text-align: center;
+}

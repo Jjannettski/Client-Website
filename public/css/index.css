@@ -1,0 +1,97 @@
+/* Universal */
+body{
+    background-color: #F7CE3E;
+    background-color: #e3e3e3;
+}
+
+#full-menu{
+    background-image: url("../img/shoes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+#menu-head-txt{
+    margin-top:10%;
+    color:#e3e3e3;
+}
+
+/* Navbar */
+.bg-light{
+    background-color: #e3e3e3 !important;
+    font-size: 18px;
+}
+#navbarNav{
+    justify-content: center;
+    height: 10vh;
+}
+
+#aubrey-menu-photo{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+/* Menu Buttons */
+
+#menu-container{
+    text-align: center;
+    /* margin-top: 4%; */
+}
+/* #menu-background{
+    background-color: #dc3545;
+} */
+
+/* Footer */
+
+.page-footer{
+    background-color: #0A1612;
+    color: #e3e3e3;
+    height:60vh;
+}
+a {
+    color: #e3e3e3;
+}
+#blank-border{
+    height: 5vh;
+    margin-bottom: 40px;
+}
+
+/* About Me */
+#aubrey-main{
+    float: left;
+    height:40%;
+    width:40%;
+    margin: 4%;
+}
+#about-me-container, #services-container,footer,.services-row{
+    margin-top: 5%;
+}
+#about-me-container{
+    color: black;
+}
+#blank-div{
+    height: 10vh;
+}
+
+/* Services */
+#services-container{
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    #navbarNav{
+        height: 40vh;
+    }
+    .page-footer{
+        height:150vh;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #navbarNav{
+        height: 10vh;
+    }
+    .page-footer{
+        height:70vh;
+    }
+}

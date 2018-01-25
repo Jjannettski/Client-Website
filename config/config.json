@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "james",
+    "password": "password",
+    "database": "blogger",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "i4x4g4y31olpt6ns",
+    "password": "h2ze2vnan9tjyrcp",
+    "database": "Aubreyc",
+    "host": "mysql://i4x4g4y31olpt6ns:h2ze2vnan9tjyrcp@cig4l2op6r0fxymw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/w3j43vqf91l907iy",
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
